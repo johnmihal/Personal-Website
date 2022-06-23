@@ -1,0 +1,34 @@
+
+body {
+    background-color: #282741;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+}
+
+h1{
+
+}
+
+p{
+    margin-bottom: 150px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+}
+
+a h2{
+    margin-top: 0;
+
+}
+
+a h2:hover{
+    color: yellow;
+    transform: scale(1.2);
+}
