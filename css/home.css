@@ -249,6 +249,12 @@ footer ul li{
         display: block;
         background-color: #282741;
     }
+    header{
+        font-size: 1.7em;
+    }
+    nav{
+        font-size: .5em;
+    }
     .grid{
         display: block;
     }
@@ -259,5 +265,10 @@ footer ul li{
     }
     .project{
         display: block;
+    }
+    #projects img{
+        max-width: 70vw;
+        border-radius: 2em;
+        
     }
 }
