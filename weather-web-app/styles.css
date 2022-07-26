@@ -1,3 +1,6 @@
+*{
+    outline: black;
+}
 body {
     display: flex;
     justify-content: center;
@@ -99,4 +102,22 @@ footer{
 a{
     color: white;
     font-size: .7em;
+}
+
+@media (max-width: 470px) {
+    body{
+        display: block;
+        background-position: center;
+        background-size: cover;
+        margin: 0
+    }
+    .content{
+        max-width: 70%;
+    }
+    .mobile-padding{
+        padding-top: 30vh;
+    }
+    footer{
+        display: block;
+    }
 }
