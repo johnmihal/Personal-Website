@@ -1,4 +1,8 @@
 /* STRUCTURE */
+*{
+    outline: black;
+}
+
 body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
@@ -253,7 +257,7 @@ footer ul li{
         font-size: 1.7em;
     }
     nav{
-        font-size: .5em;
+        font-size: .7em;
     }
     .grid{
         display: block;
@@ -262,6 +266,8 @@ footer ul li{
         display: block;
         margin-left: auto;
         margin-right: auto;
+        font-size: 1.5em;
+        font-weight: 600;
     }
     .project{
         display: block;
@@ -270,5 +276,17 @@ footer ul li{
         max-width: 70vw;
         border-radius: 2em;
         
+    }
+    #projects h4{
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    #projects p{
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    #projects li{
+        font-size: 1.5em;
+        font-weight: 600;
     }
 }
