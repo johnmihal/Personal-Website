@@ -224,6 +224,7 @@ footer ul li{
 
 .project{
     display: flex;
+    padding-bottom: 80px;
 }
 
 .vertical ul{
