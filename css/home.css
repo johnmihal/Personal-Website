@@ -2,11 +2,11 @@
 /*
 body *{
     outline: black solid 1px;
-}
-*/
+}*/
+
 
 html,body{
-    height:100%
+/*    height:100% */
 }
 
 body {
@@ -82,7 +82,7 @@ ul{
 
 }
 
-ul li{
+nav ul li{
     display: flex;
     flex-direction: row-reverse;
 }
@@ -226,6 +226,7 @@ footer img{
     margin-right: 10vw;
     margin-left: 10vw;
     margin-bottom: 60px;
+    
 }
 
 #projects a{
@@ -251,27 +252,49 @@ footer img{
 .project{
     display: flex;
     padding-bottom: 80px;
-}
+    
 
-.vertical ul{
-    padding-left: 0;
-    display: flex;
-}
-
-.vertical li{
-    margin-right: .7em;
-    margin-left: 0;
-}
-
-.vertical ul li{
-    display: flex;
-    flex-direction: row-reverse;
 }
 
 .vertical{
     padding-left: 2vw;
     padding-right: 2vw;
+  
+    
 }
+
+.vertical > ul{
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vertical > ul > li{
+    margin-right: .7em;
+    margin-left: 0;
+}
+
+.vertical > ul > li{
+    flex-direction: row-reverse;
+}
+
+.vertical h4+ul>li{
+    margin-top: .5em;
+}
+
+.vertical p+ul{
+    display: block;
+    padding-left: 1em;
+    list-style-type: disc;
+}
+
+.vertical p+ul li{
+    text-align: left;
+    flex-direction: row;
+    margin-top: .7em;
+}
+
+
 
 
 
