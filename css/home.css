@@ -119,6 +119,23 @@ nav ul li{
     );
 }
 
+.about-me ul{
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.about-me img{
+    max-height: 35px;
+}
+
+.about-me li{
+    margin-right: 30px;
+}
+
+.about-me a{
+    cursor:pointer;
+}
+
 
 footer{
     font-size: .7em;
@@ -216,10 +233,13 @@ footer img{
 
 
 #projects img{
-    max-width: 40vw;
+    width: 40vw;
+    max-width: 600px;
     border-radius: 4em;
-    
+
 }
+
+
 
 #projects{
     font-family: 'Raleway', sans-serif;
@@ -294,9 +314,92 @@ footer img{
     margin-top: .7em;
 }
 
+.slide-wrapper{
+    margin: auto;
+}
 
+.slideshow-container{
+    position: relative;
+    margin: auto;
+}
 
+.slideshow-container img{
+    position: relative;
+    display: none;
+}
 
+.slideshow-container .active{
+    display: block;
+}
+
+.dot-container,.wc_dot-container{
+    
+    width: 250px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button{
+    outline: none;
+    cursor: pointer;
+}
+
+.dot-container button{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    background-color: transparent;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+.wc_dot-container button{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    background-color: transparent;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+.dot-container button:nth-child(1){
+    background-color: #ffffff;
+}
+
+.wc_dot-container button:nth-child(1){
+    background-color: #ffffff;
+}
+
+#prev,#next,#wc_prev,#wc_next{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-color: #ded4d4;
+    color: #000000;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#prev,#wc_prev{
+    left: 5px;
+}
+
+#next,#wc_next{
+    right: 5px;
+}
 
 /* mobile friendly stuff*/
 @media (max-width: 990px) {
