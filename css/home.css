@@ -419,6 +419,7 @@ button{
     header{
         letter-spacing: normal;
         margin-left: 0px;
+        font-size: 6em;
     }
     .grid{
         display: block;
@@ -430,11 +431,21 @@ button{
         
         font-weight: 600;
         max-width: fit-content;
+        font-size: 2.3em;
     }
-    nav a{
-       font-size: 2.3em;
-        letter-spacing: normal;
+    .about-me img{
+        height: 10vw;
+        max-height: none;
+        margin: auto;
+    }
+    .about-me li{
+        margin: auto;
+    }
 
+    nav a{
+       font-size: 3.3em;
+        letter-spacing: normal;
+        margin: auto;
     }
     #projects{
         margin: 0px;
@@ -450,15 +461,15 @@ button{
         border-radius: 5%;
     }
     #projects h4{
-        font-size: 1em;
+        font-size: 2.5em;
         font-weight: 600;
     }
     #projects p{
-        font-size: 1.2em;
+        font-size: 2.2em;
         font-weight: 600;
     }
     #projects li{
-        font-size: 1.2em;
+        font-size: 2.2em;
         font-weight: 600;
     }
     .vertical{
