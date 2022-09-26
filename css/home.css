@@ -2,8 +2,8 @@
 /*
 body *{
     outline: black solid 1px;
-}*/
-
+}
+*/
 
 html,body{
 /*    height:100% */
@@ -170,7 +170,6 @@ nav a {
 
 nav a h2{
     margin-top: 0;
-
 }
 
 nav a h2:hover{
@@ -178,7 +177,6 @@ nav a h2:hover{
     transform: scale(1.1);
     transition-duration: .2s;
     transition-timing-function: ease;
-
 }
 
 .about-me{
@@ -407,11 +405,20 @@ button{
         display: block;
         
     }
-    header{
-        font-size: 4.7em;
+    #page-container {
+        
+        height:100%;
+        width: 100%;
+        max-width:1500px;
+        position: relative;
+        min-height: 100vh;
     }
-    nav{
-        font-size: 5.5m;
+    .grid{
+        margin: 0px;
+    }
+    header{
+        letter-spacing: normal;
+        margin-left: 0px;
     }
     .grid{
         display: block;
@@ -420,36 +427,50 @@ button{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        font-size: 2em;
+        
         font-weight: 600;
         max-width: fit-content;
     }
+    nav a{
+       font-size: 2.3em;
+        letter-spacing: normal;
+
+    }
+    #projects{
+        margin: 0px;
+    }
     .project{
-        display: block;
+        display: flex;
+        flex-direction: column;
         margin-top: 50px;
     }
     #projects img{
-        max-width: 70vw;
-        border-radius: 2em;
-        
+        max-width: none;
+        width: 100%;
+        border-radius: 5%;
     }
     #projects h4{
-        font-size: 2em;
+        font-size: 1em;
         font-weight: 600;
     }
     #projects p{
-        font-size: 2em;
+        font-size: 1.2em;
         font-weight: 600;
     }
     #projects li{
-        font-size: 2em;
+        font-size: 1.2em;
         font-weight: 600;
+    }
+    .vertical{
+        order: 1;
+        
+        margin-left: 5%;
     }
     #content-wrap {
         padding-bottom: 4rem;    /* Footer height */
     }
     footer{
-        font-size: 1.2em;
+        font-size: .8em;
     }
     footer ul{
         flex-direction: column-reverse;
