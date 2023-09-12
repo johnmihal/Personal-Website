@@ -5,9 +5,9 @@
 } */
 
 
-html,body{
+/* html,body{
    height:100% 
-}
+} */
 
 body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -92,7 +92,7 @@ nav ul li{
     color: white;
     line-height: 2em;
     margin-right: 10%;
-    max-width: 280px;
+    max-width: 400px;
     margin-bottom: 20%;
     border-radius: 6px;
 
@@ -138,6 +138,7 @@ nav ul li{
 
 
 footer{
+    font-family: 'Raleway', sans-serif;
     font-size: .7em;
     text-align: center;
     display: block;
@@ -404,7 +405,7 @@ button{
 @media (max-width: 990px) {
     body {
         display: block;
-        
+        animation: gradient 10s ease infinite;
     }
     #page-container {
         
@@ -488,3 +489,21 @@ button{
         flex-direction: column-reverse;
     }
 }
+
+
+.highlighted-text-shadow {
+    text-shadow:
+      /* regular text-shadow */
+      0 .15ch 15px var(--shadow),
+      /* text-shadow highlight */
+      0 -2px 0 var(--highlight);
+}
+
+
+:root {
+    --hue: 320; /* change me */
+    --bg: oklch(35% .3 var(--hue));
+    --text: oklch(85% .1 var(--hue));
+    --shadow: oklch(15% .2 var(--hue));
+    --highlight: oklch(98% .05 var(--hue));
+  } 
