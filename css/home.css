@@ -64,10 +64,10 @@ header {
     text-align: center;
     font-family: 'IBM Plex Mono', monospace;
     /* font-family: 'Lexend', sans-serif; */
-    font-size: 3em;
+    /* font-size: 3em;
     text-transform: uppercase;
     letter-spacing: 1em;
-    margin-left:  1em;
+    margin-left:  1em; */
 }
 
 nav {
