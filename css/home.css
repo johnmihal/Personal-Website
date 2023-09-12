@@ -405,6 +405,7 @@ button{
 @media (max-width: 990px) {
     body {
         display: block;
+        background: linear-gradient(0deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
         animation: gradient 10s ease infinite;
     }
     #page-container {
