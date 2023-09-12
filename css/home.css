@@ -13,6 +13,7 @@ body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 500% 500%;
     animation: gradient 15s ease infinite;
+    margin-top: 0;
 }
 
 
@@ -418,11 +419,11 @@ button{
     .grid{
         margin: 0px;
     }
-    header{
+    /* header{
         letter-spacing: normal;
         margin-left: 0px;
         font-size: 6em;
-    }
+    } */
     .grid{
         display: block;
     }
