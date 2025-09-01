@@ -19,9 +19,17 @@
     <section class="about-me">
 
         <h3>Hello!</h3>
-        <p>I am a 4th year computer science student at the
-            Rochester Institute of Technology in NY. Welcome to my website, you can find
-            my resume and work here. Check out my linked in to see my work experince.</p>
+        <p>
+            I am a machine learning research engineer at the Pennsylvania State University Applied Research Laboratory. 
+            <br>
+            <br>
+            I graduated from the Rochester Institute of Technology in 2024 and I hold a bachelor’s 
+            degree in Computer Science. 
+            <br>
+            <br>
+            Welcome to my website, you can find my resume and projects here. 
+            Check out my LinkedIn to see my work experience.
+        </p>
         <ul>
             <li>  
                 <a href="https://github.com/johnmihal" target="_blank">
@@ -45,9 +53,38 @@
         </ul>
     </nav>
 </section>
-    <section id="projects">
+        <section id="projects">
+                <section class="project" id="point-cloud-fusion">
+            <div class="vertical">
+                <ul>
+                    <li><a href="https://github.com/Boxxfish/auto-driving-project" target="_blank"><h3>Vehicle Edge Point Cloud Fusion →</h3></a></li>
+                </ul> 
+                <ul>
+                    <li>Academic Project</li>
+                    <li>5/20/24</li>
+                    <li>Team Size: 3</li>
+                </ul>
+                <p>
+                    Developed C++ code to merge two point clouds taken by offset LiDAR sensors in the same environment.  
+                </p>
+                <p> 
+                    As part of a AI Seminar class my teammates and I studied research papers on edge assisted autonomous driving.
+                    In edge assisted autonomous driving, sensors are installed at busy intersections 
+                    where a vehicle may not be able to full perceive the road. By merging the point clouds from both the car and the
+                    edge sensor (possibly located on traffic lights, ect) the hope is that self driving vehicles can fully see the road and make safer decisions.
+                 </p>
+                 <h4>Technologies Used:</h4>
+                <ul>
+                    <li>C++</li>
+                    <li>LiDAR</li>
+                    <li>ICP (Iterative Closest Point) Algorithim</li>
+                </ul>
+            </div> 
+            <a href="https://github.com/Boxxfish/auto-driving-project" target="_blank"><img src="images/point-cloud-fusion2.png" alt="A picture of point clouds before and after alignmnet."></a>
+
+        </section>
         <section class="project" id="quantum-research">
-            <a href="https://github.com/johnmihal/rit-quantum-imaging-research" target="_blank"><img src="images/star-coupler.webp" alt="A gif showing my research."></a>
+            <a href="https://github.com/johnmihal/rit-quantum-imaging-research" target="_blank"><img src="images/star-coupler-still.webp" data-gif="images/star-coupler.webp" alt="A gif showing my research." id="star-coupler-img"></a>
             <div class="vertical">
                 <ul>
                     <li><a href="https://github.com/johnmihal/rit-quantum-imaging-research" target="_blank"><h3>Photonic Star Coupler Simulation →</h3></a></li>
@@ -289,6 +326,7 @@
 </div>
 <script src="js/slideshow.js"></script> <!--for the mealhub slide show -->
 <script src="js/wc_slideshow.js"></script> <!-- for the web checkers slideshow -->
+<script src="js/gif_placeholder.js"></script> <!-- for the star coupler gif -->
 
 </body>
 </html>
